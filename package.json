@@ -1,0 +1,23 @@
+{
+  "name": "query-server",
+  "version": "1.0.0",
+  "description": "Exposes over HTTP a query interface for route planning data",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mmlab.be:linkedconnections/query-server.git"
+  },
+  "author": "Pieter Colpaert <pieter.colpaert@ugent.be>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "compression": "^1.6.0",
+    "csa": "0.0.6",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.49",
+    "morgan": "^1.6.1"
+  }
+}
