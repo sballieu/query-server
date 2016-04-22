@@ -4,6 +4,7 @@
   "description": "Exposes over HTTP a query interface for route planning data",
   "main": "bin/server.js",
   "scripts": {
+	"start": "node ./bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
