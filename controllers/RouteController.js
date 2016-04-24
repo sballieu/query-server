@@ -10,17 +10,29 @@ module.exports = function (request, response, next) {
     connectionsStream.on('error', function (error) {
       next('MongoDB error ' + error);
     });
-    var resultStream = connectionsStream.pipe(planner);//TODO
+    var resultStream = connectionsStream.pipe(planner);
     var result = false;
-    var count = 0;
+    var countMST = 0;
+    var countTotal = 0;
+    connectionsStream.on('data', function (data) {
+      countTotal++;
+    });
     resultStream.on('data', function (connection) {
-      count ++;
+      countMST++;
     });
     resultStream.on('result', function (path) {
       result = true;
-      console.log('Path found after relaxing',count,'connections');
+      console.log('Path found after relaxing',countTotal,'connections');
       connectionsStream.unpipe(planner);
       planner.end();
+      responseObject : {
+        "@id" : "todo",
+        "@context" : {
+        },
+        "@graph" : path,
+        connectionsMST: countMST,
+        connectionsProcessed: countTotal
+      }
       response.send(path);
       next();
     });
