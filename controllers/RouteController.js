@@ -25,15 +25,15 @@ module.exports = function (request, response, next) {
       console.log('Path found after relaxing',countTotal,'connections');
       connectionsStream.unpipe(planner);
       planner.end();
-      responseObject : {
+      var responseObject = {
         "@id" : "todo",
         "@context" : {
         },
         "@graph" : path,
         connectionsMST: countMST,
         connectionsProcessed: countTotal
-      }
-      response.send(path);
+      };
+      response.send(responseObject);
       next();
     });
 
