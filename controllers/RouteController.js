@@ -2,11 +2,12 @@ var csa = require('csa');
 
 module.exports = function (request, response, next) {
   if (!request.query.departureTime) {
-    response.redirect(400, 'Please provide us with a parseable ISO8601 departureTime as a GET parameter');
+    response.status(400).send('Please provide us with a parseable ISO8601 departureTime as a GET parameter');
   } else {
     
     var planner = new csa.BasicCSA({departureStop: request.query.departureStop, arrivalStop: request.query.arrivalStop,departureTime: new Date(request.query.departureTime)});
-    var connectionsStream = request.db.getConnectionsStream(new Date(request.query.departureTime));
+    var departureTime = new Date(request.query.departureTime);
+    var connectionsStream = request.db.getConnectionsStream(departureTime);
     connectionsStream.on('error', function (error) {
       next('MongoDB error ' + error);
     });
@@ -14,8 +15,13 @@ module.exports = function (request, response, next) {
     var result = false;
     var countMST = 0;
     var countTotal = 0;
+    var maxJourneyTime = request.locals.config.maxJourneyTime || 60*60*1000*4;
     connectionsStream.on('data', function (data) {
       countTotal++;
+      if ((data.departureTime - departureTime) > maxJourneyTime) {
+        connectionsStream.unpipe(planner);
+        planner.end();
+      }
     });
     resultStream.on('data', function (connection) {
       countMST++;
@@ -39,9 +45,16 @@ module.exports = function (request, response, next) {
 
     resultStream.on('end', function () {
       if (!result) {
-        next('No route found');
+        response.status(404).send({
+          "@id" : "todo",
+          "@context" : {
+          },
+          "error" : "no path found within the maxJourneyTime",
+          connectionsMST: countMST,
+          connectionsProcessed: countTotal
+        });
+        next();
       }
     });
-    
   }
 };
