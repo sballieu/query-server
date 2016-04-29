@@ -12,5 +12,6 @@
     "hostname" : "localhost",
     "protocol" : "http"
   },
-  "maxJourneyTime":14400000
+  "maxJourneyTime":14400000,
+  "defaultTimezone":"Europe/Brussels"
 }
