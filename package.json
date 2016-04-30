@@ -19,7 +19,7 @@
     "csa": "^0.0.11",
     "express": "^4.13.3",
     "moment-timezone": "^0.5.3",
-    "mongodb": "^2.0.49",
+    "mongodb": "^2.x.x",
     "morgan": "^1.6.1"
   }
 }

@@ -21,6 +21,7 @@ module.exports = function (request, response, next) {
       countTotal++;
       if ((data.departureTime - departureTime) > maxJourneyTime) {
         connectionsStream.unpipe(planner);
+        connectionsStream.end();
         planner.end();
       }
     });
@@ -31,6 +32,7 @@ module.exports = function (request, response, next) {
       result = true;
       console.log('Path found after relaxing',countTotal,'connections');
       connectionsStream.unpipe(planner);
+      connectionsStream.end();
       planner.end();
       var responseObject = {
         "@id" : "todo",
