@@ -30,11 +30,14 @@ MongoDBConnector.connect = function (dbstring, collections, cb) {
   }
 };
 
-MongoDBConnector.getConnectionsStream = function (departureTime) {
-  return this._db.collection(this.collections['connections'])
-      .find({'departureTime': {'$gte': departureTime}})
+MongoDBConnector.getConnectionsStream = function (departureTime, endTime, cb) {
+  var connectionsStream = this._db.collection(this.collections['connections'])
+      .find({'departureTime': {'$gte': departureTime,'$lt': endTime}})
       .sort({'departureTime': 1})
-      .stream().pipe(new MongoDBFixStream());
-};
+      .stream();
+  cb(connectionsStream.pipe(new MongoDBFixStream()), function () {
+    connectionsStream.close();
+  });
+}
 
 module.exports = MongoDBConnector;
