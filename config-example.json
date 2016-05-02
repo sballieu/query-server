@@ -8,8 +8,10 @@
   },
   "port" : 8080,
   "proxy" : {
-    "port" : 80,
-    "hostname" : "data.linkedconnections.org",
+    "port" : 8080,
+    "hostname" : "localhost",
     "protocol" : "http"
-  }
+  },
+  "maxJourneyTime":14400000,
+  "defaultTimezone":"Europe/Brussels"
 }
