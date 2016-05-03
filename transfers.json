@@ -1,0 +1,3631 @@
+{
+    "transfers": {
+        "@context": {
+            "gtfs": "http://vocab.gtfs.org/terms#", 
+            "transfer_type": {
+                "@id": "gtfs:TransferType", 
+                "@type": "@id"
+            }, 
+            "min_transfer_time": {
+                "@id": "gtfs:minimumTransferTime", 
+                "@type": "@id"
+            }, 
+            "origin_stop": {
+                "@id": "gtfs:originStop", 
+                "@type": "@id"
+            }, 
+            "destination_stop": {
+                "@id": "gtfs:destinationStop", 
+                "@type": "@id"
+            }
+        }, 
+        "@graph": [
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8015345", 
+                "destination_stop": "8015345"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200100", 
+                "destination_stop": "8200100"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 120, 
+                "origin_stop": "8200101", 
+                "destination_stop": "8200101"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8200110", 
+                "destination_stop": "8200110"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8200120", 
+                "destination_stop": "8200120"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200128", 
+                "destination_stop": "8200128"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 120, 
+                "origin_stop": "8200130", 
+                "destination_stop": "8200130"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200132", 
+                "destination_stop": "8200132"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200133", 
+                "destination_stop": "8200133"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200134", 
+                "destination_stop": "8200134"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8200136", 
+                "destination_stop": "8200136"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200510", 
+                "destination_stop": "8200510"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200516", 
+                "destination_stop": "8200516"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200518", 
+                "destination_stop": "8200518"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8200520", 
+                "destination_stop": "8200520"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 120, 
+                "origin_stop": "8200940", 
+                "destination_stop": "8200940"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8210014", 
+                "destination_stop": "8210014"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8400058", 
+                "destination_stop": "8400058"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8400180", 
+                "destination_stop": "8400180"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 120, 
+                "origin_stop": "8400219", 
+                "destination_stop": "8400219"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8400280", 
+                "destination_stop": "8400280"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8400424", 
+                "destination_stop": "8400424"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 120, 
+                "origin_stop": "8400426", 
+                "destination_stop": "8400426"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8400526", 
+                "destination_stop": "8400526"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8400530", 
+                "destination_stop": "8400530"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8400561", 
+                "destination_stop": "8400561"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8500010", 
+                "destination_stop": "8500010"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 600, 
+                "origin_stop": "8718201", 
+                "destination_stop": "8718201"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 480, 
+                "origin_stop": "8718206", 
+                "destination_stop": "8718206"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8718213", 
+                "destination_stop": "8718213"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8719100", 
+                "destination_stop": "8719100"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8719203", 
+                "destination_stop": "8719203"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 480, 
+                "origin_stop": "8721202", 
+                "destination_stop": "8721202"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8721222", 
+                "destination_stop": "8721222"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8721405", 
+                "destination_stop": "8721405"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728105", 
+                "destination_stop": "8728105"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728600", 
+                "destination_stop": "8728600"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728606", 
+                "destination_stop": "8728606"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728654", 
+                "destination_stop": "8728654"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728671", 
+                "destination_stop": "8728671"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728673", 
+                "destination_stop": "8728673"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728683", 
+                "destination_stop": "8728683"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728685", 
+                "destination_stop": "8728685"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728686", 
+                "destination_stop": "8728686"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728687", 
+                "destination_stop": "8728687"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8728710", 
+                "destination_stop": "8728710"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811007", 
+                "destination_stop": "8811007"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811106", 
+                "destination_stop": "8811106"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811130", 
+                "destination_stop": "8811130"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811148", 
+                "destination_stop": "8811148"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811155", 
+                "destination_stop": "8811155"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811163", 
+                "destination_stop": "8811163"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811171", 
+                "destination_stop": "8811171"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8811189", 
+                "destination_stop": "8811189"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811197", 
+                "destination_stop": "8811197"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811205", 
+                "destination_stop": "8811205"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811213", 
+                "destination_stop": "8811213"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811221", 
+                "destination_stop": "8811221"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811247", 
+                "destination_stop": "8811247"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811254", 
+                "destination_stop": "8811254"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811262", 
+                "destination_stop": "8811262"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811270", 
+                "destination_stop": "8811270"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811288", 
+                "destination_stop": "8811288"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811304", 
+                "destination_stop": "8811304"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811403", 
+                "destination_stop": "8811403"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811411", 
+                "destination_stop": "8811411"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811429", 
+                "destination_stop": "8811429"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811437", 
+                "destination_stop": "8811437"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811445", 
+                "destination_stop": "8811445"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811460", 
+                "destination_stop": "8811460"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811510", 
+                "destination_stop": "8811510"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811528", 
+                "destination_stop": "8811528"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811536", 
+                "destination_stop": "8811536"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811544", 
+                "destination_stop": "8811544"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811601", 
+                "destination_stop": "8811601"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811635", 
+                "destination_stop": "8811635"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811676", 
+                "destination_stop": "8811676"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811718", 
+                "destination_stop": "8811718"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811726", 
+                "destination_stop": "8811726"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811734", 
+                "destination_stop": "8811734"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811742", 
+                "destination_stop": "8811742"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811759", 
+                "destination_stop": "8811759"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811767", 
+                "destination_stop": "8811767"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811775", 
+                "destination_stop": "8811775"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811817", 
+                "destination_stop": "8811817"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811825", 
+                "destination_stop": "8811825"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8811916", 
+                "destination_stop": "8811916"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812005", 
+                "destination_stop": "8812005"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812013", 
+                "destination_stop": "8812013"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812021", 
+                "destination_stop": "8812021"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812047", 
+                "destination_stop": "8812047"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812062", 
+                "destination_stop": "8812062"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812070", 
+                "destination_stop": "8812070"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812112", 
+                "destination_stop": "8812112"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812120", 
+                "destination_stop": "8812120"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812146", 
+                "destination_stop": "8812146"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812153", 
+                "destination_stop": "8812153"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812161", 
+                "destination_stop": "8812161"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812211", 
+                "destination_stop": "8812211"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812229", 
+                "destination_stop": "8812229"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812237", 
+                "destination_stop": "8812237"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812245", 
+                "destination_stop": "8812245"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812252", 
+                "destination_stop": "8812252"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8812260", 
+                "destination_stop": "8812260"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8813003", 
+                "destination_stop": "8813003"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8813037", 
+                "destination_stop": "8813037"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8813045", 
+                "destination_stop": "8813045"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814001", 
+                "destination_stop": "8814001"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814118", 
+                "destination_stop": "8814118"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814126", 
+                "destination_stop": "8814126"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814134", 
+                "destination_stop": "8814134"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814142", 
+                "destination_stop": "8814142"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814159", 
+                "destination_stop": "8814159"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814167", 
+                "destination_stop": "8814167"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814175", 
+                "destination_stop": "8814175"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814209", 
+                "destination_stop": "8814209"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814241", 
+                "destination_stop": "8814241"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8814258", 
+                "destination_stop": "8814258"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814266", 
+                "destination_stop": "8814266"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814308", 
+                "destination_stop": "8814308"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814332", 
+                "destination_stop": "8814332"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814340", 
+                "destination_stop": "8814340"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814357", 
+                "destination_stop": "8814357"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814365", 
+                "destination_stop": "8814365"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814373", 
+                "destination_stop": "8814373"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814415", 
+                "destination_stop": "8814415"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814423", 
+                "destination_stop": "8814423"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814431", 
+                "destination_stop": "8814431"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814449", 
+                "destination_stop": "8814449"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8814456", 
+                "destination_stop": "8814456"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8814464", 
+                "destination_stop": "8814464"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8815016", 
+                "destination_stop": "8815016"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8815040", 
+                "destination_stop": "8815040"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 3540, 
+                "origin_stop": "8819406", 
+                "destination_stop": "8819406"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821006", 
+                "destination_stop": "8821006"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821063", 
+                "destination_stop": "8821063"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821071", 
+                "destination_stop": "8821071"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8821089", 
+                "destination_stop": "8821089"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821105", 
+                "destination_stop": "8821105"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821121", 
+                "destination_stop": "8821121"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821147", 
+                "destination_stop": "8821147"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821154", 
+                "destination_stop": "8821154"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821196", 
+                "destination_stop": "8821196"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821238", 
+                "destination_stop": "8821238"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821246", 
+                "destination_stop": "8821246"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821311", 
+                "destination_stop": "8821311"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821337", 
+                "destination_stop": "8821337"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821402", 
+                "destination_stop": "8821402"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821436", 
+                "destination_stop": "8821436"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821444", 
+                "destination_stop": "8821444"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821451", 
+                "destination_stop": "8821451"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821519", 
+                "destination_stop": "8821519"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821535", 
+                "destination_stop": "8821535"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821543", 
+                "destination_stop": "8821543"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8821600", 
+                "destination_stop": "8821600"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821634", 
+                "destination_stop": "8821634"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821659", 
+                "destination_stop": "8821659"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821667", 
+                "destination_stop": "8821667"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821709", 
+                "destination_stop": "8821709"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8821717", 
+                "destination_stop": "8821717"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821725", 
+                "destination_stop": "8821725"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821816", 
+                "destination_stop": "8821816"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821824", 
+                "destination_stop": "8821824"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821832", 
+                "destination_stop": "8821832"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821857", 
+                "destination_stop": "8821857"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821865", 
+                "destination_stop": "8821865"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821907", 
+                "destination_stop": "8821907"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8821964", 
+                "destination_stop": "8821964"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822004", 
+                "destination_stop": "8822004"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822053", 
+                "destination_stop": "8822053"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822111", 
+                "destination_stop": "8822111"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822137", 
+                "destination_stop": "8822137"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822145", 
+                "destination_stop": "8822145"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822160", 
+                "destination_stop": "8822160"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822210", 
+                "destination_stop": "8822210"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822228", 
+                "destination_stop": "8822228"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822251", 
+                "destination_stop": "8822251"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822269", 
+                "destination_stop": "8822269"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822277", 
+                "destination_stop": "8822277"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822343", 
+                "destination_stop": "8822343"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822426", 
+                "destination_stop": "8822426"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822459", 
+                "destination_stop": "8822459"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822475", 
+                "destination_stop": "8822475"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822517", 
+                "destination_stop": "8822517"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822525", 
+                "destination_stop": "8822525"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822533", 
+                "destination_stop": "8822533"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822608", 
+                "destination_stop": "8822608"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822715", 
+                "destination_stop": "8822715"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822772", 
+                "destination_stop": "8822772"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822814", 
+                "destination_stop": "8822814"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8822848", 
+                "destination_stop": "8822848"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8824158", 
+                "destination_stop": "8824158"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8824224", 
+                "destination_stop": "8824224"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8824232", 
+                "destination_stop": "8824232"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8824240", 
+                "destination_stop": "8824240"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8831005", 
+                "destination_stop": "8831005"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831039", 
+                "destination_stop": "8831039"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831088", 
+                "destination_stop": "8831088"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831112", 
+                "destination_stop": "8831112"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831138", 
+                "destination_stop": "8831138"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831310", 
+                "destination_stop": "8831310"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831401", 
+                "destination_stop": "8831401"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831765", 
+                "destination_stop": "8831765"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831781", 
+                "destination_stop": "8831781"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8831807", 
+                "destination_stop": "8831807"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832003", 
+                "destination_stop": "8832003"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832045", 
+                "destination_stop": "8832045"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832227", 
+                "destination_stop": "8832227"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832235", 
+                "destination_stop": "8832235"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832243", 
+                "destination_stop": "8832243"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832250", 
+                "destination_stop": "8832250"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832334", 
+                "destination_stop": "8832334"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832375", 
+                "destination_stop": "8832375"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8832409", 
+                "destination_stop": "8832409"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832433", 
+                "destination_stop": "8832433"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832458", 
+                "destination_stop": "8832458"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832565", 
+                "destination_stop": "8832565"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832573", 
+                "destination_stop": "8832573"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832615", 
+                "destination_stop": "8832615"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8832664", 
+                "destination_stop": "8832664"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833001", 
+                "destination_stop": "8833001"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833050", 
+                "destination_stop": "8833050"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833126", 
+                "destination_stop": "8833126"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833134", 
+                "destination_stop": "8833134"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833159", 
+                "destination_stop": "8833159"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833175", 
+                "destination_stop": "8833175"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8833209", 
+                "destination_stop": "8833209"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833233", 
+                "destination_stop": "8833233"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833258", 
+                "destination_stop": "8833258"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833266", 
+                "destination_stop": "8833266"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833274", 
+                "destination_stop": "8833274"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833308", 
+                "destination_stop": "8833308"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833449", 
+                "destination_stop": "8833449"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833605", 
+                "destination_stop": "8833605"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8833670", 
+                "destination_stop": "8833670"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841004", 
+                "destination_stop": "8841004"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841202", 
+                "destination_stop": "8841202"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841319", 
+                "destination_stop": "8841319"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841327", 
+                "destination_stop": "8841327"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841400", 
+                "destination_stop": "8841400"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841434", 
+                "destination_stop": "8841434"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841442", 
+                "destination_stop": "8841442"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841459", 
+                "destination_stop": "8841459"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841467", 
+                "destination_stop": "8841467"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841525", 
+                "destination_stop": "8841525"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841558", 
+                "destination_stop": "8841558"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841608", 
+                "destination_stop": "8841608"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841665", 
+                "destination_stop": "8841665"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841673", 
+                "destination_stop": "8841673"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8841731", 
+                "destination_stop": "8841731"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842002", 
+                "destination_stop": "8842002"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842036", 
+                "destination_stop": "8842036"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842630", 
+                "destination_stop": "8842630"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842648", 
+                "destination_stop": "8842648"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842655", 
+                "destination_stop": "8842655"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842663", 
+                "destination_stop": "8842663"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842689", 
+                "destination_stop": "8842689"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842705", 
+                "destination_stop": "8842705"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842754", 
+                "destination_stop": "8842754"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842838", 
+                "destination_stop": "8842838"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842846", 
+                "destination_stop": "8842846"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8842853", 
+                "destination_stop": "8842853"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8843109", 
+                "destination_stop": "8843109"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843133", 
+                "destination_stop": "8843133"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843141", 
+                "destination_stop": "8843141"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843158", 
+                "destination_stop": "8843158"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843166", 
+                "destination_stop": "8843166"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843208", 
+                "destination_stop": "8843208"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843224", 
+                "destination_stop": "8843224"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843240", 
+                "destination_stop": "8843240"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843307", 
+                "destination_stop": "8843307"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843323", 
+                "destination_stop": "8843323"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843331", 
+                "destination_stop": "8843331"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843349", 
+                "destination_stop": "8843349"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843406", 
+                "destination_stop": "8843406"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843430", 
+                "destination_stop": "8843430"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8843901", 
+                "destination_stop": "8843901"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8844008", 
+                "destination_stop": "8844008"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844057", 
+                "destination_stop": "8844057"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8844206", 
+                "destination_stop": "8844206"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844230", 
+                "destination_stop": "8844230"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844255", 
+                "destination_stop": "8844255"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844271", 
+                "destination_stop": "8844271"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844313", 
+                "destination_stop": "8844313"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844321", 
+                "destination_stop": "8844321"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844339", 
+                "destination_stop": "8844339"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844347", 
+                "destination_stop": "8844347"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844404", 
+                "destination_stop": "8844404"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844420", 
+                "destination_stop": "8844420"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844503", 
+                "destination_stop": "8844503"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844545", 
+                "destination_stop": "8844545"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8844628", 
+                "destination_stop": "8844628"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8844644", 
+                "destination_stop": "8844644"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8845005", 
+                "destination_stop": "8845005"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8845146", 
+                "destination_stop": "8845146"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8845203", 
+                "destination_stop": "8845203"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8845229", 
+                "destination_stop": "8845229"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8846201", 
+                "destination_stop": "8846201"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861119", 
+                "destination_stop": "8861119"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861127", 
+                "destination_stop": "8861127"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861135", 
+                "destination_stop": "8861135"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861143", 
+                "destination_stop": "8861143"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861150", 
+                "destination_stop": "8861150"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861168", 
+                "destination_stop": "8861168"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8861200", 
+                "destination_stop": "8861200"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861317", 
+                "destination_stop": "8861317"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861333", 
+                "destination_stop": "8861333"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861416", 
+                "destination_stop": "8861416"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861424", 
+                "destination_stop": "8861424"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861432", 
+                "destination_stop": "8861432"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861440", 
+                "destination_stop": "8861440"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861515", 
+                "destination_stop": "8861515"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861523", 
+                "destination_stop": "8861523"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861531", 
+                "destination_stop": "8861531"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8861549", 
+                "destination_stop": "8861549"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8862018", 
+                "destination_stop": "8862018"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863008", 
+                "destination_stop": "8863008"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863115", 
+                "destination_stop": "8863115"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863156", 
+                "destination_stop": "8863156"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863354", 
+                "destination_stop": "8863354"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863362", 
+                "destination_stop": "8863362"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863404", 
+                "destination_stop": "8863404"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863438", 
+                "destination_stop": "8863438"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863446", 
+                "destination_stop": "8863446"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863453", 
+                "destination_stop": "8863453"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863461", 
+                "destination_stop": "8863461"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8863503", 
+                "destination_stop": "8863503"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863545", 
+                "destination_stop": "8863545"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863560", 
+                "destination_stop": "8863560"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863818", 
+                "destination_stop": "8863818"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863834", 
+                "destination_stop": "8863834"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863842", 
+                "destination_stop": "8863842"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8863867", 
+                "destination_stop": "8863867"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864006", 
+                "destination_stop": "8864006"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864311", 
+                "destination_stop": "8864311"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864337", 
+                "destination_stop": "8864337"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864345", 
+                "destination_stop": "8864345"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864352", 
+                "destination_stop": "8864352"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864410", 
+                "destination_stop": "8864410"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864436", 
+                "destination_stop": "8864436"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864451", 
+                "destination_stop": "8864451"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864469", 
+                "destination_stop": "8864469"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864501", 
+                "destination_stop": "8864501"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864816", 
+                "destination_stop": "8864816"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864824", 
+                "destination_stop": "8864824"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864832", 
+                "destination_stop": "8864832"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864915", 
+                "destination_stop": "8864915"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864923", 
+                "destination_stop": "8864923"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864931", 
+                "destination_stop": "8864931"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864949", 
+                "destination_stop": "8864949"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864956", 
+                "destination_stop": "8864956"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8864964", 
+                "destination_stop": "8864964"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865003", 
+                "destination_stop": "8865003"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865110", 
+                "destination_stop": "8865110"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865128", 
+                "destination_stop": "8865128"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865227", 
+                "destination_stop": "8865227"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865300", 
+                "destination_stop": "8865300"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865540", 
+                "destination_stop": "8865540"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865565", 
+                "destination_stop": "8865565"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865615", 
+                "destination_stop": "8865615"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8865649", 
+                "destination_stop": "8865649"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8866001", 
+                "destination_stop": "8866001"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866118", 
+                "destination_stop": "8866118"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866142", 
+                "destination_stop": "8866142"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866175", 
+                "destination_stop": "8866175"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866258", 
+                "destination_stop": "8866258"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866407", 
+                "destination_stop": "8866407"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866530", 
+                "destination_stop": "8866530"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866605", 
+                "destination_stop": "8866605"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866654", 
+                "destination_stop": "8866654"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866662", 
+                "destination_stop": "8866662"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8866845", 
+                "destination_stop": "8866845"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871100", 
+                "destination_stop": "8871100"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871175", 
+                "destination_stop": "8871175"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871183", 
+                "destination_stop": "8871183"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871217", 
+                "destination_stop": "8871217"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871225", 
+                "destination_stop": "8871225"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871308", 
+                "destination_stop": "8871308"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871332", 
+                "destination_stop": "8871332"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871365", 
+                "destination_stop": "8871365"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871373", 
+                "destination_stop": "8871373"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871381", 
+                "destination_stop": "8871381"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871415", 
+                "destination_stop": "8871415"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871514", 
+                "destination_stop": "8871514"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871605", 
+                "destination_stop": "8871605"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871647", 
+                "destination_stop": "8871647"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871662", 
+                "destination_stop": "8871662"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871670", 
+                "destination_stop": "8871670"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871688", 
+                "destination_stop": "8871688"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871712", 
+                "destination_stop": "8871712"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871811", 
+                "destination_stop": "8871811"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871829", 
+                "destination_stop": "8871829"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871837", 
+                "destination_stop": "8871837"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8871852", 
+                "destination_stop": "8871852"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872009", 
+                "destination_stop": "8872009"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872066", 
+                "destination_stop": "8872066"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872306", 
+                "destination_stop": "8872306"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872413", 
+                "destination_stop": "8872413"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872520", 
+                "destination_stop": "8872520"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872553", 
+                "destination_stop": "8872553"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872579", 
+                "destination_stop": "8872579"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872587", 
+                "destination_stop": "8872587"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8872611", 
+                "destination_stop": "8872611"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873007", 
+                "destination_stop": "8873007"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873122", 
+                "destination_stop": "8873122"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873239", 
+                "destination_stop": "8873239"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873312", 
+                "destination_stop": "8873312"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873320", 
+                "destination_stop": "8873320"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873379", 
+                "destination_stop": "8873379"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8873387", 
+                "destination_stop": "8873387"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874005", 
+                "destination_stop": "8874005"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874054", 
+                "destination_stop": "8874054"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874559", 
+                "destination_stop": "8874559"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874567", 
+                "destination_stop": "8874567"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874583", 
+                "destination_stop": "8874583"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874609", 
+                "destination_stop": "8874609"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8874716", 
+                "destination_stop": "8874716"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8874724", 
+                "destination_stop": "8874724"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8875002", 
+                "destination_stop": "8875002"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8875127", 
+                "destination_stop": "8875127"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881000", 
+                "destination_stop": "8881000"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881125", 
+                "destination_stop": "8881125"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881158", 
+                "destination_stop": "8881158"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881166", 
+                "destination_stop": "8881166"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881174", 
+                "destination_stop": "8881174"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881190", 
+                "destination_stop": "8881190"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881315", 
+                "destination_stop": "8881315"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881406", 
+                "destination_stop": "8881406"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881430", 
+                "destination_stop": "8881430"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881455", 
+                "destination_stop": "8881455"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881463", 
+                "destination_stop": "8881463"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881505", 
+                "destination_stop": "8881505"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881562", 
+                "destination_stop": "8881562"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8881570", 
+                "destination_stop": "8881570"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882107", 
+                "destination_stop": "8882107"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882206", 
+                "destination_stop": "8882206"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882230", 
+                "destination_stop": "8882230"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882248", 
+                "destination_stop": "8882248"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882339", 
+                "destination_stop": "8882339"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882362", 
+                "destination_stop": "8882362"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8882701", 
+                "destination_stop": "8882701"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883006", 
+                "destination_stop": "8883006"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883022", 
+                "destination_stop": "8883022"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8883113", 
+                "destination_stop": "8883113"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883121", 
+                "destination_stop": "8883121"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883212", 
+                "destination_stop": "8883212"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883220", 
+                "destination_stop": "8883220"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883238", 
+                "destination_stop": "8883238"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883311", 
+                "destination_stop": "8883311"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883436", 
+                "destination_stop": "8883436"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8883808", 
+                "destination_stop": "8883808"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884004", 
+                "destination_stop": "8884004"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884319", 
+                "destination_stop": "8884319"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884327", 
+                "destination_stop": "8884327"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884335", 
+                "destination_stop": "8884335"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884350", 
+                "destination_stop": "8884350"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884541", 
+                "destination_stop": "8884541"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884566", 
+                "destination_stop": "8884566"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884632", 
+                "destination_stop": "8884632"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884640", 
+                "destination_stop": "8884640"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884715", 
+                "destination_stop": "8884715"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884855", 
+                "destination_stop": "8884855"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8884889", 
+                "destination_stop": "8884889"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885001", 
+                "destination_stop": "8885001"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885068", 
+                "destination_stop": "8885068"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885522", 
+                "destination_stop": "8885522"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885530", 
+                "destination_stop": "8885530"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885704", 
+                "destination_stop": "8885704"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8885753", 
+                "destination_stop": "8885753"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886009", 
+                "destination_stop": "8886009"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886041", 
+                "destination_stop": "8886041"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886058", 
+                "destination_stop": "8886058"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886066", 
+                "destination_stop": "8886066"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886074", 
+                "destination_stop": "8886074"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886348", 
+                "destination_stop": "8886348"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886504", 
+                "destination_stop": "8886504"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886546", 
+                "destination_stop": "8886546"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886553", 
+                "destination_stop": "8886553"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886561", 
+                "destination_stop": "8886561"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8886587", 
+                "destination_stop": "8886587"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8891009", 
+                "destination_stop": "8891009"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891033", 
+                "destination_stop": "8891033"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891116", 
+                "destination_stop": "8891116"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891124", 
+                "destination_stop": "8891124"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891132", 
+                "destination_stop": "8891132"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8891140", 
+                "destination_stop": "8891140"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891157", 
+                "destination_stop": "8891157"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891165", 
+                "destination_stop": "8891165"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891173", 
+                "destination_stop": "8891173"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891264", 
+                "destination_stop": "8891264"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891314", 
+                "destination_stop": "8891314"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891405", 
+                "destination_stop": "8891405"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891553", 
+                "destination_stop": "8891553"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891611", 
+                "destination_stop": "8891611"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891629", 
+                "destination_stop": "8891629"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891645", 
+                "destination_stop": "8891645"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891652", 
+                "destination_stop": "8891652"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891660", 
+                "destination_stop": "8891660"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8891702", 
+                "destination_stop": "8891702"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892007", 
+                "destination_stop": "8892007"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892031", 
+                "destination_stop": "8892031"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892056", 
+                "destination_stop": "8892056"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892080", 
+                "destination_stop": "8892080"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892106", 
+                "destination_stop": "8892106"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8892205", 
+                "destination_stop": "8892205"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892254", 
+                "destination_stop": "8892254"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892288", 
+                "destination_stop": "8892288"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892304", 
+                "destination_stop": "8892304"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892320", 
+                "destination_stop": "8892320"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892338", 
+                "destination_stop": "8892338"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892403", 
+                "destination_stop": "8892403"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 60, 
+                "origin_stop": "8892452", 
+                "destination_stop": "8892452"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8892601", 
+                "destination_stop": "8892601"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892627", 
+                "destination_stop": "8892627"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892635", 
+                "destination_stop": "8892635"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892643", 
+                "destination_stop": "8892643"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892650", 
+                "destination_stop": "8892650"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892692", 
+                "destination_stop": "8892692"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892734", 
+                "destination_stop": "8892734"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8892908", 
+                "destination_stop": "8892908"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893013", 
+                "destination_stop": "8893013"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893039", 
+                "destination_stop": "8893039"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893047", 
+                "destination_stop": "8893047"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893054", 
+                "destination_stop": "8893054"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893062", 
+                "destination_stop": "8893062"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893070", 
+                "destination_stop": "8893070"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8893120", 
+                "destination_stop": "8893120"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893179", 
+                "destination_stop": "8893179"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893211", 
+                "destination_stop": "8893211"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893252", 
+                "destination_stop": "8893252"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893260", 
+                "destination_stop": "8893260"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8893401", 
+                "destination_stop": "8893401"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893443", 
+                "destination_stop": "8893443"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893518", 
+                "destination_stop": "8893518"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893526", 
+                "destination_stop": "8893526"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893534", 
+                "destination_stop": "8893534"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8893542", 
+                "destination_stop": "8893542"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 360, 
+                "origin_stop": "8893559", 
+                "destination_stop": "8893559"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893567", 
+                "destination_stop": "8893567"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893583", 
+                "destination_stop": "8893583"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893708", 
+                "destination_stop": "8893708"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8893815", 
+                "destination_stop": "8893815"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894151", 
+                "destination_stop": "8894151"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8894201", 
+                "destination_stop": "8894201"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894235", 
+                "destination_stop": "8894235"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894425", 
+                "destination_stop": "8894425"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894433", 
+                "destination_stop": "8894433"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894508", 
+                "destination_stop": "8894508"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894672", 
+                "destination_stop": "8894672"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894714", 
+                "destination_stop": "8894714"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894748", 
+                "destination_stop": "8894748"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894755", 
+                "destination_stop": "8894755"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8894821", 
+                "destination_stop": "8894821"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895000", 
+                "destination_stop": "8895000"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895067", 
+                "destination_stop": "8895067"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895091", 
+                "destination_stop": "8895091"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895125", 
+                "destination_stop": "8895125"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 240, 
+                "origin_stop": "8895208", 
+                "destination_stop": "8895208"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895232", 
+                "destination_stop": "8895232"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895240", 
+                "destination_stop": "8895240"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895257", 
+                "destination_stop": "8895257"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895422", 
+                "destination_stop": "8895422"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895430", 
+                "destination_stop": "8895430"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895448", 
+                "destination_stop": "8895448"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895455", 
+                "destination_stop": "8895455"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895463", 
+                "destination_stop": "8895463"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895471", 
+                "destination_stop": "8895471"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895489", 
+                "destination_stop": "8895489"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895505", 
+                "destination_stop": "8895505"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895570", 
+                "destination_stop": "8895570"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895612", 
+                "destination_stop": "8895612"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895620", 
+                "destination_stop": "8895620"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895638", 
+                "destination_stop": "8895638"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895646", 
+                "destination_stop": "8895646"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895711", 
+                "destination_stop": "8895711"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895729", 
+                "destination_stop": "8895729"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895737", 
+                "destination_stop": "8895737"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895745", 
+                "destination_stop": "8895745"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895752", 
+                "destination_stop": "8895752"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895760", 
+                "destination_stop": "8895760"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895778", 
+                "destination_stop": "8895778"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895802", 
+                "destination_stop": "8895802"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895836", 
+                "destination_stop": "8895836"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895844", 
+                "destination_stop": "8895844"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895851", 
+                "destination_stop": "8895851"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895869", 
+                "destination_stop": "8895869"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8895877", 
+                "destination_stop": "8895877"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 180, 
+                "origin_stop": "8896008", 
+                "destination_stop": "8896008"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896115", 
+                "destination_stop": "8896115"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896149", 
+                "destination_stop": "8896149"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896230", 
+                "destination_stop": "8896230"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896305", 
+                "destination_stop": "8896305"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896370", 
+                "destination_stop": "8896370"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896388", 
+                "destination_stop": "8896388"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896396", 
+                "destination_stop": "8896396"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896412", 
+                "destination_stop": "8896412"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896503", 
+                "destination_stop": "8896503"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896735", 
+                "destination_stop": "8896735"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896800", 
+                "destination_stop": "8896800"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896909", 
+                "destination_stop": "8896909"
+            }, 
+            {
+                "transfer_type": "gtfs:MinimumTimeTransfer", 
+                "min_transfer_time": 300, 
+                "origin_stop": "8896925", 
+                "destination_stop": "8896925"
+            }
+        ]
+    }
+}

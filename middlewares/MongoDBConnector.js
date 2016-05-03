@@ -30,11 +30,14 @@ MongoDBConnector.connect = function (dbstring, collections, cb) {
   }
 };
 
-MongoDBConnector.getConnectionsStream = function (departureTime, endTime, cb) {
-  var connectionsStream = this._db.collection(this.collections['connections'])
-      .find({'departureTime': {'$gte': departureTime,'$lt': endTime}})
-      .sort({'departureTime': 1})
-      .stream();
+MongoDBConnector.getConnectionsStream = function (departureTime, endTime, onlyWheelchairAccessibleTrips, cb) {
+  var connectionsStream = this._db.collection(this.collections['connections']);
+  if(onlyWheelchairAccessibleTrips) {
+    connectionsStream = connectionsStream.find({'departureTime': {'$gte': departureTime,'$lt': endTime}, 'gtfs:WheelchairBoardingStatus': { $eq: 'gtfs:WheelchairAccessible'}});
+  } else {
+    connectionsStream = connectionsStream.find({'departureTime': {'$gte': departureTime,'$lt': endTime}});
+  }
+  connectionsStream = connectionsStream.sort({'departureTime': 1}).stream();
   cb(connectionsStream.pipe(new MongoDBFixStream()), function () {
     connectionsStream.close();
   });

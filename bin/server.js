@@ -7,6 +7,7 @@ var express = require('express'),
     dbconnector = require('../middlewares/MongoDBConnector'),
     ErrorHandler = require('../middlewares/ErrorHandler'),
     RouteController = require('../controllers/RouteController'),
+    DataPrefetcher = require('../controllers/DataPrefetcher');
     compress = require('compression'),
     fs = require('fs');
 
@@ -26,6 +27,8 @@ if (config.proxy) {
 }
 
 var port = config.port;
+
+var routeController = new RouteController(new DataPrefetcher());
 
 var server = express();
 
@@ -51,7 +54,9 @@ server.use(logger('combined'));
 //2. If we encounter a static file (such as a favicon, css files, images...), return it immediately
 server.use(express.static(__dirname + '../public'));
 //3. Returns a path in JSON depending on the query
-server.get('/', RouteController);
+server.get('/', function (req, res, next) {
+  routeController.handle(req,res,next);
+});
 
 //4. If an error occured somewhere in the flow, handle it here
 server.use(ErrorHandler);

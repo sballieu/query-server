@@ -1,0 +1,3219 @@
+{
+    "stops": {
+        "@context": {
+            "gtfs": "http://vocab.gtfs.org/terms#", 
+            "stop_name": "rdfs:label", 
+            "stop_id": {
+                "@id": "gtfs:stop", 
+                "@type": "@id"
+            }, 
+            "wheelchair_boarding": {
+                "@id": "gtfs:WheelchairBoardingStatus", 
+                "@type": "@id"
+            }, 
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        }, 
+        "@graph": [
+            {
+                "stop_name": "London Saint Pancras International", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 7015400
+            }, 
+            {
+                "stop_name": "Ebbsfleet International", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 7015440
+            }, 
+            {
+                "stop_name": "D\u00fcsseldorf Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8008094
+            }, 
+            {
+                "stop_name": "Essen Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8010184
+            }, 
+            {
+                "stop_name": "Duisburg Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8010316
+            }, 
+            {
+                "stop_name": "Frankfurt am Main Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8011068
+            }, 
+            {
+                "stop_name": "Frankfurt am Main Flughafen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8011090
+            }, 
+            {
+                "stop_name": "Aachen Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8015345
+            }, 
+            {
+                "stop_name": "K\u00f6ln Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8015458
+            }, 
+            {
+                "stop_name": "Siegburg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8015588
+            }, 
+            {
+                "stop_name": "Limburg S\u00fcd", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8032572
+            }, 
+            {
+                "stop_name": "D\u00fcsseldorf Flughafen Hbf", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8039904
+            }, 
+            {
+                "stop_name": "L\u00ebtzebuerg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200100
+            }, 
+            {
+                "stop_name": "Mersch", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200110
+            }, 
+            {
+                "stop_name": "Ettelbr\u00e9ck", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200120
+            }, 
+            {
+                "stop_name": "Kautebaach", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200130
+            }, 
+            {
+                "stop_name": "Wilwerwiltz", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200132
+            }, 
+            {
+                "stop_name": "Drauffelt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200133
+            }, 
+            {
+                "stop_name": "Clervaux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200134
+            }, 
+            {
+                "stop_name": "Troisvierges", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200136
+            }, 
+            {
+                "stop_name": "Bertrange Strassen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200510
+            }, 
+            {
+                "stop_name": "Mamer", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200516
+            }, 
+            {
+                "stop_name": "Kapellen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200518
+            }, 
+            {
+                "stop_name": "Klengbetten", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200520
+            }, 
+            {
+                "stop_name": "Rodange", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8200940
+            }, 
+            {
+                "stop_name": "Mamer-Lyc\u00e9e", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8210014
+            }, 
+            {
+                "stop_name": "Amsterdam CS", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400058
+            }, 
+            {
+                "stop_name": "Dordrecht", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400180
+            }, 
+            {
+                "stop_name": "Eijsden", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400219
+            }, 
+            {
+                "stop_name": "Den Haag HS", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400280
+            }, 
+            {
+                "stop_name": "Maastricht", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400424
+            }, 
+            {
+                "stop_name": "Maastricht Randwyck", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400426
+            }, 
+            {
+                "stop_name": "Roosendaal", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400526
+            }, 
+            {
+                "stop_name": "Rotterdam CS", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400530
+            }, 
+            {
+                "stop_name": "Schiphol", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8400561
+            }, 
+            {
+                "stop_name": "Basel", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8500010
+            }, 
+            {
+                "stop_name": "Marne-la-Vall\u00e9e - Chessy", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8711184
+            }, 
+            {
+                "stop_name": "Colmar", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8718201
+            }, 
+            {
+                "stop_name": "Mulhouse", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8718206
+            }, 
+            {
+                "stop_name": "Saint-Louis-Haut-Rhin", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8718213
+            }, 
+            {
+                "stop_name": "Thionville", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8719100
+            }, 
+            {
+                "stop_name": "Metz", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8719203
+            }, 
+            {
+                "stop_name": "Strasbourg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8721202
+            }, 
+            {
+                "stop_name": "Saverne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8721222
+            }, 
+            {
+                "stop_name": "Selestat", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8721405
+            }, 
+            {
+                "stop_name": "Lille Europe", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8722326
+            }, 
+            {
+                "stop_name": "Paris Nord", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8727100
+            }, 
+            {
+                "stop_name": "A\u00e9roport Charles-de-Gaulle TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8727149
+            }, 
+            {
+                "stop_name": "Croix l'Allumette", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728105
+            }, 
+            {
+                "stop_name": "Lille Flandres", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728600
+            }, 
+            {
+                "stop_name": "Hellemmes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728606
+            }, 
+            {
+                "stop_name": "Tourcoing", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728654
+            }, 
+            {
+                "stop_name": "Croix Wasquehal", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728671
+            }, 
+            {
+                "stop_name": "Roubaix", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728673
+            }, 
+            {
+                "stop_name": "Pont de Bois", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728683
+            }, 
+            {
+                "stop_name": "Annappes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728685
+            }, 
+            {
+                "stop_name": "Ascq", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728686
+            }, 
+            {
+                "stop_name": "Baisieux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728687
+            }, 
+            {
+                "stop_name": "Lezennes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8728710
+            }, 
+            {
+                "stop_name": "Haute-Picardie TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8731388
+            }, 
+            {
+                "stop_name": "Avignon TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8731896
+            }, 
+            {
+                "stop_name": "Aix-en-Provence TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8731901
+            }, 
+            {
+                "stop_name": "Lyon-Perrache TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8772202
+            }, 
+            {
+                "stop_name": "Lyon Part Dieu TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8772319
+            }, 
+            {
+                "stop_name": "Chamb\u00e9ry-Challes-les-Eaux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774100
+            }, 
+            {
+                "stop_name": "Albertville", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774164
+            }, 
+            {
+                "stop_name": "Mo\u00fbtiers-Salins-Brides-les-Bai", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774172
+            }, 
+            {
+                "stop_name": "Aime-la-Plagne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774176
+            }, 
+            {
+                "stop_name": "Landry", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774177
+            }, 
+            {
+                "stop_name": "Bourg-Saint-Maurice", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8774179
+            }, 
+            {
+                "stop_name": "Marseille-Saint-Charles", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775100
+            }, 
+            {
+                "stop_name": "Toulon", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775500
+            }, 
+            {
+                "stop_name": "Les Arcs - Draguignan", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775544
+            }, 
+            {
+                "stop_name": "Nice Ville", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775605
+            }, 
+            {
+                "stop_name": "Saint-Rapha\u00ebl-Valescure", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775752
+            }, 
+            {
+                "stop_name": "Cannes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775762
+            }, 
+            {
+                "stop_name": "Antibes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8775767
+            }, 
+            {
+                "stop_name": "Lyon-Saint Exup\u00e9ry TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8776290
+            }, 
+            {
+                "stop_name": "Valence TGV", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8776302
+            }, 
+            {
+                "stop_name": "Montpellier", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8777300
+            }, 
+            {
+                "stop_name": "S\u00e8te", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8777320
+            }, 
+            {
+                "stop_name": "N\u00eemes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8777500
+            }, 
+            {
+                "stop_name": "B\u00e9ziers", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8778100
+            }, 
+            {
+                "stop_name": "Narbonne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8778110
+            }, 
+            {
+                "stop_name": "Agde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8778127
+            }, 
+            {
+                "stop_name": "Perpignan", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8778400
+            }, 
+            {
+                "stop_name": "Schaarbeek/Schaerbeek", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811007
+            }, 
+            {
+                "stop_name": "Evere", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811106
+            }, 
+            {
+                "stop_name": "Haren-Sud/Haren-Zuid", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811130
+            }, 
+            {
+                "stop_name": "Buda", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811148
+            }, 
+            {
+                "stop_name": "Haren", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811155
+            }, 
+            {
+                "stop_name": "Bordet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811163
+            }, 
+            {
+                "stop_name": "Meiser", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811171
+            }, 
+            {
+                "stop_name": "Vilvoorde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811189
+            }, 
+            {
+                "stop_name": "Merode", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811197
+            }, 
+            {
+                "stop_name": "Delta", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811205
+            }, 
+            {
+                "stop_name": "Diegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811213
+            }, 
+            {
+                "stop_name": "Zaventem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811221
+            }, 
+            {
+                "stop_name": "Nossegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811247
+            }, 
+            {
+                "stop_name": "Kortenberg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811254
+            }, 
+            {
+                "stop_name": "Erps-Kwerps", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811262
+            }, 
+            {
+                "stop_name": "Veltem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811270
+            }, 
+            {
+                "stop_name": "Herent", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811288
+            }, 
+            {
+                "stop_name": "Brussel-Luxemburg/Bruxelles-Luxembourg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811304
+            }, 
+            {
+                "stop_name": "Etterbeek", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811411
+            }, 
+            {
+                "stop_name": "Watermaal/Watermael", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811429
+            }, 
+            {
+                "stop_name": "Bosvoorde/Boitsfort", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811437
+            }, 
+            {
+                "stop_name": "Groenendaal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811445
+            }, 
+            {
+                "stop_name": "Hoeilaart", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811460
+            }, 
+            {
+                "stop_name": "La Hulpe", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811510
+            }, 
+            {
+                "stop_name": "Genval", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811528
+            }, 
+            {
+                "stop_name": "Rixensart", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811536
+            }, 
+            {
+                "stop_name": "Profondsart", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811544
+            }, 
+            {
+                "stop_name": "Ottignies", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811601
+            }, 
+            {
+                "stop_name": "Limal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811635
+            }, 
+            {
+                "stop_name": "Louvain-la-Neuve-Universit\u00e9", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811676
+            }, 
+            {
+                "stop_name": "Bierges-Walibi", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811718
+            }, 
+            {
+                "stop_name": "Wavre", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811726
+            }, 
+            {
+                "stop_name": "Basse-Wavre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811734
+            }, 
+            {
+                "stop_name": "Gastuche", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811742
+            }, 
+            {
+                "stop_name": "Archennes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811759
+            }, 
+            {
+                "stop_name": "Florival", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811767
+            }, 
+            {
+                "stop_name": "P\u00e9crot", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811775
+            }, 
+            {
+                "stop_name": "Ceroux-Mousty", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811817
+            }, 
+            {
+                "stop_name": "Court-Saint-\u00c9tienne", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8811825
+            }, 
+            {
+                "stop_name": "Brussel-Schuman/Bruxelles-Schuman", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8811916
+            }, 
+            {
+                "stop_name": "Brussel-Noord/Bruxelles-Nord", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812005
+            }, 
+            {
+                "stop_name": "Simonis", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812013
+            }, 
+            {
+                "stop_name": "Bockstael", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812021
+            }, 
+            {
+                "stop_name": "Jette", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812047
+            }, 
+            {
+                "stop_name": "Zellik", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812062
+            }, 
+            {
+                "stop_name": "Asse", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812070
+            }, 
+            {
+                "stop_name": "Mollem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812112
+            }, 
+            {
+                "stop_name": "Merchtem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812120
+            }, 
+            {
+                "stop_name": "Opwijk", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812146
+            }, 
+            {
+                "stop_name": "Heizijde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812153
+            }, 
+            {
+                "stop_name": "Lebbeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812161
+            }, 
+            {
+                "stop_name": "Sint-Agatha-Berchem/Berchem-Sainte-Agathe", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812211
+            }, 
+            {
+                "stop_name": "Groot-Bijgaarden", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812229
+            }, 
+            {
+                "stop_name": "Dilbeek", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8812237
+            }, 
+            {
+                "stop_name": "Sint-Martens-Bodegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812245
+            }, 
+            {
+                "stop_name": "Ternat", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812252
+            }, 
+            {
+                "stop_name": "Essene-Lombeek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8812260
+            }, 
+            {
+                "stop_name": "Brussel-Centraal/Bruxelles-Central", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8813003
+            }, 
+            {
+                "stop_name": "Brussel-Kapellekerk/Bruxelles-Chapelle", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8813037
+            }, 
+            {
+                "stop_name": "Brussel-Congres/Bruxelles-Congr\u00e8s", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8813045
+            }, 
+            {
+                "stop_name": "Brussel-Zuid/Bruxelles-Midi", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814001
+            }, 
+            {
+                "stop_name": "Vorst-Oost/Forest-Est", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814118
+            }, 
+            {
+                "stop_name": "Ukkel-Stalle/Uccle-Stalle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814126
+            }, 
+            {
+                "stop_name": "Ukkel-Kalevoet/Uccle-Calevoet", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814134
+            }, 
+            {
+                "stop_name": "Linkebeek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814142
+            }, 
+            {
+                "stop_name": "Holleken", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814159
+            }, 
+            {
+                "stop_name": "Sint-Genesius-Rode", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814167
+            }, 
+            {
+                "stop_name": "De Hoek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814175
+            }, 
+            {
+                "stop_name": "Nivelles", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814209
+            }, 
+            {
+                "stop_name": "Lillois", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814241
+            }, 
+            {
+                "stop_name": "Braine-l'Alleud", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814258
+            }, 
+            {
+                "stop_name": "Waterloo", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814266
+            }, 
+            {
+                "stop_name": "Halle", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814308
+            }, 
+            {
+                "stop_name": "Lembeek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814332
+            }, 
+            {
+                "stop_name": "Buizingen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814340
+            }, 
+            {
+                "stop_name": "Lot", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814357
+            }, 
+            {
+                "stop_name": "Ruisbroek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814365
+            }, 
+            {
+                "stop_name": "Vorst-Zuid/Forest-Midi", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814373
+            }, 
+            {
+                "stop_name": "Huizingen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814415
+            }, 
+            {
+                "stop_name": "Beersel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814423
+            }, 
+            {
+                "stop_name": "Moensberg", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814431
+            }, 
+            {
+                "stop_name": "Sint-Job", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814449
+            }, 
+            {
+                "stop_name": "Boondaal/Boondael", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8814456
+            }, 
+            {
+                "stop_name": "Diesdelle/Vivier d'Oie", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8814464
+            }, 
+            {
+                "stop_name": "Brussel-West/Bruxelles-Ouest", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8815040
+            }, 
+            {
+                "stop_name": "Brussel-Nat-Luchthaven/Bruxelles-Nat-A\u00e9roport", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8819406
+            }, 
+            {
+                "stop_name": "Antwerpen-Centraal", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821006
+            }, 
+            {
+                "stop_name": "Antwerpen-Oost", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821022
+            }, 
+            {
+                "stop_name": "Antwerpen-Haven", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821048
+            }, 
+            {
+                "stop_name": "Antwerpen-Luchtbal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821063
+            }, 
+            {
+                "stop_name": "Ekeren", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821071
+            }, 
+            {
+                "stop_name": "Antwerpen-Noorderdokken", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821089
+            }, 
+            {
+                "stop_name": "Noorderkempen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821105
+            }, 
+            {
+                "stop_name": "Antwerpen-Berchem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821121
+            }, 
+            {
+                "stop_name": "Mortsel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821147
+            }, 
+            {
+                "stop_name": "Mortsel-Deurnesteenweg", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821154
+            }, 
+            {
+                "stop_name": "Antwerpen-Zuid", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821196
+            }, 
+            {
+                "stop_name": "Mortsel-Oude God", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821238
+            }, 
+            {
+                "stop_name": "Mortsel-Liersesteenweg", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821246
+            }, 
+            {
+                "stop_name": "Kontich", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821311
+            }, 
+            {
+                "stop_name": "Hove", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821337
+            }, 
+            {
+                "stop_name": "Essen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821402
+            }, 
+            {
+                "stop_name": "Wildert", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821436
+            }, 
+            {
+                "stop_name": "Kalmthout", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821444
+            }, 
+            {
+                "stop_name": "Kijkuit", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821451
+            }, 
+            {
+                "stop_name": "Heide", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821519
+            }, 
+            {
+                "stop_name": "Kapellen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821535
+            }, 
+            {
+                "stop_name": "Sint-Mariaburg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821543
+            }, 
+            {
+                "stop_name": "Lier", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821600
+            }, 
+            {
+                "stop_name": "Boechout", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821634
+            }, 
+            {
+                "stop_name": "Kessel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821659
+            }, 
+            {
+                "stop_name": "Nijlen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821667
+            }, 
+            {
+                "stop_name": "Wolfstee", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821709
+            }, 
+            {
+                "stop_name": "Herentals", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821717
+            }, 
+            {
+                "stop_name": "Bouwel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821725
+            }, 
+            {
+                "stop_name": "Berlaar", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821816
+            }, 
+            {
+                "stop_name": "Melkouwen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821824
+            }, 
+            {
+                "stop_name": "Heist-op-den-Berg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821832
+            }, 
+            {
+                "stop_name": "Booischot", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821857
+            }, 
+            {
+                "stop_name": "Begijnendijk", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821865
+            }, 
+            {
+                "stop_name": "Turnhout", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8821907
+            }, 
+            {
+                "stop_name": "Tielen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8821964
+            }, 
+            {
+                "stop_name": "Mechelen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822004
+            }, 
+            {
+                "stop_name": "Kapelle-op-den-Bos", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822053
+            }, 
+            {
+                "stop_name": "Londerzeel", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822111
+            }, 
+            {
+                "stop_name": "Malderen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822137
+            }, 
+            {
+                "stop_name": "Buggenhout", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822145
+            }, 
+            {
+                "stop_name": "Baasrode-Zuid", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822160
+            }, 
+            {
+                "stop_name": "Duffel", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822210
+            }, 
+            {
+                "stop_name": "Sint-Katelijne-Waver", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822228
+            }, 
+            {
+                "stop_name": "Weerde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822251
+            }, 
+            {
+                "stop_name": "Eppegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822269
+            }, 
+            {
+                "stop_name": "Hofstade", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822277
+            }, 
+            {
+                "stop_name": "Mechelen-Nekkerspoel", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822343
+            }, 
+            {
+                "stop_name": "Muizen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822426
+            }, 
+            {
+                "stop_name": "Hever", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822459
+            }, 
+            {
+                "stop_name": "Boortmeerbeek", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822475
+            }, 
+            {
+                "stop_name": "Haacht", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822517
+            }, 
+            {
+                "stop_name": "Wespelaar-Tildonk", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822525
+            }, 
+            {
+                "stop_name": "Hambos", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822533
+            }, 
+            {
+                "stop_name": "Willebroek", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822608
+            }, 
+            {
+                "stop_name": "Puurs", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822715
+            }, 
+            {
+                "stop_name": "Bornem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822772
+            }, 
+            {
+                "stop_name": "Boom", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8822814
+            }, 
+            {
+                "stop_name": "Ruisbroek-Sauvegarde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8822848
+            }, 
+            {
+                "stop_name": "Hoboken-Polder", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8824158
+            }, 
+            {
+                "stop_name": "Hemiksem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8824224
+            }, 
+            {
+                "stop_name": "Schelle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8824232
+            }, 
+            {
+                "stop_name": "Niel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8824240
+            }, 
+            {
+                "stop_name": "Hasselt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831005
+            }, 
+            {
+                "stop_name": "Alken", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8831039
+            }, 
+            {
+                "stop_name": "Schulen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8831088
+            }, 
+            {
+                "stop_name": "Diepenbeek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8831112
+            }, 
+            {
+                "stop_name": "Bilzen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831138
+            }, 
+            {
+                "stop_name": "Tongeren", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831310
+            }, 
+            {
+                "stop_name": "Diest", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831401
+            }, 
+            {
+                "stop_name": "Genk", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831765
+            }, 
+            {
+                "stop_name": "Bokrijk", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8831781
+            }, 
+            {
+                "stop_name": "Sint-Truiden", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8831807
+            }, 
+            {
+                "stop_name": "Leopoldsburg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8832003
+            }, 
+            {
+                "stop_name": "Balen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832045
+            }, 
+            {
+                "stop_name": "Beverlo", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832227
+            }, 
+            {
+                "stop_name": "Beringen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832235
+            }, 
+            {
+                "stop_name": "Heusden", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832243
+            }, 
+            {
+                "stop_name": "Zolder", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832250
+            }, 
+            {
+                "stop_name": "Zonhoven", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832334
+            }, 
+            {
+                "stop_name": "Kiewit", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832375
+            }, 
+            {
+                "stop_name": "Mol", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8832409
+            }, 
+            {
+                "stop_name": "Geel", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8832433
+            }, 
+            {
+                "stop_name": "Olen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832458
+            }, 
+            {
+                "stop_name": "Lommel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832565
+            }, 
+            {
+                "stop_name": "Overpelt", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832573
+            }, 
+            {
+                "stop_name": "Neerpelt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8832615
+            }, 
+            {
+                "stop_name": "Hamont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8832664
+            }, 
+            {
+                "stop_name": "Leuven", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8833001
+            }, 
+            {
+                "stop_name": "Vertrijk", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833050
+            }, 
+            {
+                "stop_name": "Heverlee", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833126
+            }, 
+            {
+                "stop_name": "Oud-Heverlee", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833134
+            }, 
+            {
+                "stop_name": "Sint-Joris-Weert", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833159
+            }, 
+            {
+                "stop_name": "Wijgmaal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833175
+            }, 
+            {
+                "stop_name": "Aarschot", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8833209
+            }, 
+            {
+                "stop_name": "Wezemaal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833233
+            }, 
+            {
+                "stop_name": "Langdorp", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833258
+            }, 
+            {
+                "stop_name": "Testelt", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833266
+            }, 
+            {
+                "stop_name": "Zichem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833274
+            }, 
+            {
+                "stop_name": "Tienen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8833308
+            }, 
+            {
+                "stop_name": "Ezemaal", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833449
+            }, 
+            {
+                "stop_name": "Landen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8833605
+            }, 
+            {
+                "stop_name": "Neerwinden", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8833670
+            }, 
+            {
+                "stop_name": "Li\u00e8ge-Guillemins", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841004
+            }, 
+            {
+                "stop_name": "Ans", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841202
+            }, 
+            {
+                "stop_name": "Bierset-Awans", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841319
+            }, 
+            {
+                "stop_name": "Voroux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841327
+            }, 
+            {
+                "stop_name": "Waremme", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841400
+            }, 
+            {
+                "stop_name": "Bleret", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841434
+            }, 
+            {
+                "stop_name": "Remicourt", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841442
+            }, 
+            {
+                "stop_name": "Momalle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841459
+            }, 
+            {
+                "stop_name": "Fexhe-le-Haut-Clocher", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841467
+            }, 
+            {
+                "stop_name": "Li\u00e8ge-Palais", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841525
+            }, 
+            {
+                "stop_name": "Li\u00e8ge-Jonfosse", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841558
+            }, 
+            {
+                "stop_name": "Herstal", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8841608
+            }, 
+            {
+                "stop_name": "Milmort", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841665
+            }, 
+            {
+                "stop_name": "Liers", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841673
+            }, 
+            {
+                "stop_name": "Glons", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8841731
+            }, 
+            {
+                "stop_name": "Angleur", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8842002
+            }, 
+            {
+                "stop_name": "Ch\u00ean\u00e9e", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8842036
+            }, 
+            {
+                "stop_name": "Tilff", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842630
+            }, 
+            {
+                "stop_name": "M\u00e9ry", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8842648
+            }, 
+            {
+                "stop_name": "Hony", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842655
+            }, 
+            {
+                "stop_name": "Esneux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842663
+            }, 
+            {
+                "stop_name": "Poulseur", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842689
+            }, 
+            {
+                "stop_name": "Rivage", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8842705
+            }, 
+            {
+                "stop_name": "Aywaille", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8842754
+            }, 
+            {
+                "stop_name": "Comblain-la-Tour", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842838
+            }, 
+            {
+                "stop_name": "Hamoir", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842846
+            }, 
+            {
+                "stop_name": "Sy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8842853
+            }, 
+            {
+                "stop_name": "Sclessin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843133
+            }, 
+            {
+                "stop_name": "Pont-de-Seraing", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843141
+            }, 
+            {
+                "stop_name": "Jemeppe-sur-Meuse", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843158
+            }, 
+            {
+                "stop_name": "Flemalle-Grande", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843166
+            }, 
+            {
+                "stop_name": "Flemalle-Haute", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8843208
+            }, 
+            {
+                "stop_name": "Leman", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843224
+            }, 
+            {
+                "stop_name": "Engis", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843240
+            }, 
+            {
+                "stop_name": "Huy", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8843307
+            }, 
+            {
+                "stop_name": "Ampsin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843323
+            }, 
+            {
+                "stop_name": "Amay", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843331
+            }, 
+            {
+                "stop_name": "Haute-Fl\u00f4ne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8843349
+            }, 
+            {
+                "stop_name": "Statte", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843406
+            }, 
+            {
+                "stop_name": "Bas-Oha", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843430
+            }, 
+            {
+                "stop_name": "Bressoux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8843901
+            }, 
+            {
+                "stop_name": "Verviers-Central", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844008
+            }, 
+            {
+                "stop_name": "Verviers-Palais", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844057
+            }, 
+            {
+                "stop_name": "Pepinster", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844206
+            }, 
+            {
+                "stop_name": "Nessonvaux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844230
+            }, 
+            {
+                "stop_name": "Fraipont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844255
+            }, 
+            {
+                "stop_name": "Trooz", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844271
+            }, 
+            {
+                "stop_name": "Pepinster-Cit\u00e9", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844313
+            }, 
+            {
+                "stop_name": "Juslenville", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844321
+            }, 
+            {
+                "stop_name": "Theux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844339
+            }, 
+            {
+                "stop_name": "Franchimont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844347
+            }, 
+            {
+                "stop_name": "Spa", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844404
+            }, 
+            {
+                "stop_name": "Spa-G\u00e9ronst\u00e8re", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844420
+            }, 
+            {
+                "stop_name": "Welkenraedt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844503
+            }, 
+            {
+                "stop_name": "Dolhain-Gileppe", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844545
+            }, 
+            {
+                "stop_name": "Eupen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8844628
+            }, 
+            {
+                "stop_name": "Hergenrath", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8844644
+            }, 
+            {
+                "stop_name": "Gouvy", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8845005
+            }, 
+            {
+                "stop_name": "Vielsalm", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8845146
+            }, 
+            {
+                "stop_name": "Trois-Ponts", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8845203
+            }, 
+            {
+                "stop_name": "Coo", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8845229
+            }, 
+            {
+                "stop_name": "Vis\u00e9", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8846201
+            }, 
+            {
+                "stop_name": "Ronet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861119
+            }, 
+            {
+                "stop_name": "Flawinne", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861127
+            }, 
+            {
+                "stop_name": "Floreffe", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861135
+            }, 
+            {
+                "stop_name": "Frani\u00e8re", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861143
+            }, 
+            {
+                "stop_name": "Moustier", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8861150
+            }, 
+            {
+                "stop_name": "Ham-sur-Sambre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861168
+            }, 
+            {
+                "stop_name": "Gembloux", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8861200
+            }, 
+            {
+                "stop_name": "Chapelle-Dieu", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861317
+            }, 
+            {
+                "stop_name": "Mazy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861333
+            }, 
+            {
+                "stop_name": "Lonz\u00e9e", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861416
+            }, 
+            {
+                "stop_name": "Beuzet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861424
+            }, 
+            {
+                "stop_name": "Saint-Denis-Bovesse", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861432
+            }, 
+            {
+                "stop_name": "Rhisnes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861440
+            }, 
+            {
+                "stop_name": "Ernage", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861515
+            }, 
+            {
+                "stop_name": "Chastre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861523
+            }, 
+            {
+                "stop_name": "Blanmont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8861531
+            }, 
+            {
+                "stop_name": "Mont-Saint-Guibert", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8861549
+            }, 
+            {
+                "stop_name": "Stockem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8862018
+            }, 
+            {
+                "stop_name": "Namur", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863008
+            }, 
+            {
+                "stop_name": "Jambes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863115
+            }, 
+            {
+                "stop_name": "Lustin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863156
+            }, 
+            {
+                "stop_name": "Jambes-Est", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863354
+            }, 
+            {
+                "stop_name": "Dave-Saint-Martin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863362
+            }, 
+            {
+                "stop_name": "Andenne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863404
+            }, 
+            {
+                "stop_name": "Ch\u00e2teau-de-Seilles", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863438
+            }, 
+            {
+                "stop_name": "Sclaigneaux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863446
+            }, 
+            {
+                "stop_name": "Nam\u00eache", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863453
+            }, 
+            {
+                "stop_name": "Marche-les-Dames", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863461
+            }, 
+            {
+                "stop_name": "Dinant", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863503
+            }, 
+            {
+                "stop_name": "Yvoir", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863545
+            }, 
+            {
+                "stop_name": "Godinne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863560
+            }, 
+            {
+                "stop_name": "Anseremme", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863818
+            }, 
+            {
+                "stop_name": "Gendron-Celles", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863834
+            }, 
+            {
+                "stop_name": "Houyet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8863842
+            }, 
+            {
+                "stop_name": "Beauraing", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8863867
+            }, 
+            {
+                "stop_name": "Jemelle", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8864006
+            }, 
+            {
+                "stop_name": "Forri\u00e8res", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864311
+            }, 
+            {
+                "stop_name": "Grupont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864337
+            }, 
+            {
+                "stop_name": "Marloie", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8864345
+            }, 
+            {
+                "stop_name": "Aye", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864352
+            }, 
+            {
+                "stop_name": "Marche-en-Famenne", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864410
+            }, 
+            {
+                "stop_name": "Melreux-Hotton", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8864436
+            }, 
+            {
+                "stop_name": "Barvaux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864451
+            }, 
+            {
+                "stop_name": "Bomal", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8864469
+            }, 
+            {
+                "stop_name": "Ciney", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8864501
+            }, 
+            {
+                "stop_name": "Leignon", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864816
+            }, 
+            {
+                "stop_name": "Chapois", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864824
+            }, 
+            {
+                "stop_name": "Haversin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864832
+            }, 
+            {
+                "stop_name": "Natoye", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864915
+            }, 
+            {
+                "stop_name": "Flor\u00e9e", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864923
+            }, 
+            {
+                "stop_name": "Assesse", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864931
+            }, 
+            {
+                "stop_name": "Courri\u00e8re", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864949
+            }, 
+            {
+                "stop_name": "Sart-Bernard", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864956
+            }, 
+            {
+                "stop_name": "Naninne", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8864964
+            }, 
+            {
+                "stop_name": "Libramont", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8865003
+            }, 
+            {
+                "stop_name": "Bastogne-Sud", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865110
+            }, 
+            {
+                "stop_name": "Bastogne-Nord", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865128
+            }, 
+            {
+                "stop_name": "Poix-Saint-Hubert", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865227
+            }, 
+            {
+                "stop_name": "Bertrix", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865300
+            }, 
+            {
+                "stop_name": "Paliseul", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865540
+            }, 
+            {
+                "stop_name": "Carlsbourg", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865565
+            }, 
+            {
+                "stop_name": "Graide", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865615
+            }, 
+            {
+                "stop_name": "Gedinne", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8865649
+            }, 
+            {
+                "stop_name": "Arlon", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8866001
+            }, 
+            {
+                "stop_name": "Viville", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866118
+            }, 
+            {
+                "stop_name": "Habay", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866142
+            }, 
+            {
+                "stop_name": "Marbehan", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8866175
+            }, 
+            {
+                "stop_name": "Neufch\u00e2teau", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8866258
+            }, 
+            {
+                "stop_name": "Virton", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8866407
+            }, 
+            {
+                "stop_name": "Halanzy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866530
+            }, 
+            {
+                "stop_name": "Athus", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866605
+            }, 
+            {
+                "stop_name": "Aubange", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866654
+            }, 
+            {
+                "stop_name": "Messancy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8866662
+            }, 
+            {
+                "stop_name": "Florenville", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8866845
+            }, 
+            {
+                "stop_name": "Marchienne-au-Pont", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8871100
+            }, 
+            {
+                "stop_name": "Jamioulx", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871175
+            }, 
+            {
+                "stop_name": "Beign\u00e9e", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871183
+            }, 
+            {
+                "stop_name": "Roux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871217
+            }, 
+            {
+                "stop_name": "Courcelles-Motte", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871225
+            }, 
+            {
+                "stop_name": "Luttre", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8871308
+            }, 
+            {
+                "stop_name": "Obaix-Buzet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871332
+            }, 
+            {
+                "stop_name": "Pont-\u00e0-Celles", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871365
+            }, 
+            {
+                "stop_name": "Gouy-lez-Pieton", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871373
+            }, 
+            {
+                "stop_name": "Godarville", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871381
+            }, 
+            {
+                "stop_name": "Pi\u00e9ton", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8871415
+            }, 
+            {
+                "stop_name": "Forchies", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871514
+            }, 
+            {
+                "stop_name": "Erquelinnes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871605
+            }, 
+            {
+                "stop_name": "Erquelinnes-Village", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871647
+            }, 
+            {
+                "stop_name": "Solre-sur-Sambre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871662
+            }, 
+            {
+                "stop_name": "Labuissi\u00e8re", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871670
+            }, 
+            {
+                "stop_name": "Fontaine-Valmont", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871688
+            }, 
+            {
+                "stop_name": "Lobbes", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8871712
+            }, 
+            {
+                "stop_name": "Thuin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871811
+            }, 
+            {
+                "stop_name": "Hourpes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871829
+            }, 
+            {
+                "stop_name": "Landelies", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8871837
+            }, 
+            {
+                "stop_name": "Marchienne-Zone", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8871852
+            }, 
+            {
+                "stop_name": "Charleroi-Sud", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8872009
+            }, 
+            {
+                "stop_name": "Charleroi-Ouest", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872066
+            }, 
+            {
+                "stop_name": "Lodelinsart", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872306
+            }, 
+            {
+                "stop_name": "Fleurus", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8872413
+            }, 
+            {
+                "stop_name": "Ligny", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872520
+            }, 
+            {
+                "stop_name": "Tilly", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872553
+            }, 
+            {
+                "stop_name": "Villers-la-Ville", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872579
+            }, 
+            {
+                "stop_name": "La Roche (Brabant)", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872587
+            }, 
+            {
+                "stop_name": "Faux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8872611
+            }, 
+            {
+                "stop_name": "Walcourt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8873007
+            }, 
+            {
+                "stop_name": "Philippeville", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873122
+            }, 
+            {
+                "stop_name": "Yves-Gomez\u00e9e", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873239
+            }, 
+            {
+                "stop_name": "Pry", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873312
+            }, 
+            {
+                "stop_name": "Berz\u00e9e", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873320
+            }, 
+            {
+                "stop_name": "Cour-sur-Heure", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873379
+            }, 
+            {
+                "stop_name": "Ham-sur-Heure", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8873387
+            }, 
+            {
+                "stop_name": "Ch\u00e2telet", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8874005
+            }, 
+            {
+                "stop_name": "Couillet", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8874054
+            }, 
+            {
+                "stop_name": "Le Campinaire", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8874559
+            }, 
+            {
+                "stop_name": "Farciennes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8874567
+            }, 
+            {
+                "stop_name": "Aiseau", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8874583
+            }, 
+            {
+                "stop_name": "Tamines", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8874609
+            }, 
+            {
+                "stop_name": "Auvelais", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8874716
+            }, 
+            {
+                "stop_name": "Jemeppe-sur-Sambre", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8874724
+            }, 
+            {
+                "stop_name": "Mariembourg", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8875002
+            }, 
+            {
+                "stop_name": "Couvin", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8875127
+            }, 
+            {
+                "stop_name": "Mons", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8881000
+            }, 
+            {
+                "stop_name": "Ghlin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881125
+            }, 
+            {
+                "stop_name": "Erbis\u0153ul", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881158
+            }, 
+            {
+                "stop_name": "Jurbeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881166
+            }, 
+            {
+                "stop_name": "Masnuy-Saint-Pierre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881174
+            }, 
+            {
+                "stop_name": "Lens", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881190
+            }, 
+            {
+                "stop_name": "Nimy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881315
+            }, 
+            {
+                "stop_name": "Obourg", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881406
+            }, 
+            {
+                "stop_name": "Havre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881430
+            }, 
+            {
+                "stop_name": "Thieu", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881455
+            }, 
+            {
+                "stop_name": "Bracquegnies", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881463
+            }, 
+            {
+                "stop_name": "Quevy", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881505
+            }, 
+            {
+                "stop_name": "Genly", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881562
+            }, 
+            {
+                "stop_name": "Frameries", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8881570
+            }, 
+            {
+                "stop_name": "La Louvi\u00e8re-Centre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8882107
+            }, 
+            {
+                "stop_name": "La Louvi\u00e8re-Sud", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8882206
+            }, 
+            {
+                "stop_name": "Morlanwelz", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8882230
+            }, 
+            {
+                "stop_name": "Carnieres", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8882248
+            }, 
+            {
+                "stop_name": "Leval", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8882339
+            }, 
+            {
+                "stop_name": "Binche", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8882362
+            }, 
+            {
+                "stop_name": "Manage", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8882701
+            }, 
+            {
+                "stop_name": "Braine-le-Comte", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8883006
+            }, 
+            {
+                "stop_name": "Hennuy\u00e8res", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883022
+            }, 
+            {
+                "stop_name": "Soignies", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883113
+            }, 
+            {
+                "stop_name": "Neufvilles", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883121
+            }, 
+            {
+                "stop_name": "\u00c9caussinnes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883212
+            }, 
+            {
+                "stop_name": "Marche-lez-\u00c9caussinnes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883220
+            }, 
+            {
+                "stop_name": "Familleureux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883238
+            }, 
+            {
+                "stop_name": "Enghien", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8883311
+            }, 
+            {
+                "stop_name": "Silly", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883436
+            }, 
+            {
+                "stop_name": "Tubize", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8883808
+            }, 
+            {
+                "stop_name": "Saint-Ghislain", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8884004
+            }, 
+            {
+                "stop_name": "Boussu", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884319
+            }, 
+            {
+                "stop_name": "Hainin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884327
+            }, 
+            {
+                "stop_name": "Quievrain", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884335
+            }, 
+            {
+                "stop_name": "Thulin", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884350
+            }, 
+            {
+                "stop_name": "Quaregnon", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884541
+            }, 
+            {
+                "stop_name": "Jemappes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884566
+            }, 
+            {
+                "stop_name": "Ville-Pommer\u0153ul", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884632
+            }, 
+            {
+                "stop_name": "Harchies", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884640
+            }, 
+            {
+                "stop_name": "Blaton", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884715
+            }, 
+            {
+                "stop_name": "P\u00e9ruwelz", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884855
+            }, 
+            {
+                "stop_name": "Callenelle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8884889
+            }, 
+            {
+                "stop_name": "Tournai", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8885001
+            }, 
+            {
+                "stop_name": "Froyennes", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8885068
+            }, 
+            {
+                "stop_name": "Antoing", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8885522
+            }, 
+            {
+                "stop_name": "Maubray", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8885530
+            }, 
+            {
+                "stop_name": "Mouscron", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8885704
+            }, 
+            {
+                "stop_name": "Herseaux", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8885753
+            }, 
+            {
+                "stop_name": "Ath", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8886009
+            }, 
+            {
+                "stop_name": "Maffle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886041
+            }, 
+            {
+                "stop_name": "Mevergnies-Attre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886058
+            }, 
+            {
+                "stop_name": "Brugelette", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886066
+            }, 
+            {
+                "stop_name": "Cambron-Casteau", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886074
+            }, 
+            {
+                "stop_name": "Leuze", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8886348
+            }, 
+            {
+                "stop_name": "Lessen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886504
+            }, 
+            {
+                "stop_name": "Acren", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886546
+            }, 
+            {
+                "stop_name": "Houraing", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886553
+            }, 
+            {
+                "stop_name": "Papegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886561
+            }, 
+            {
+                "stop_name": "Rebaix", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8886587
+            }, 
+            {
+                "stop_name": "Brugge", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891009
+            }, 
+            {
+                "stop_name": "Brugge-Sint-Pieters", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891033
+            }, 
+            {
+                "stop_name": "Oostkamp", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891116
+            }, 
+            {
+                "stop_name": "Beernem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891124
+            }, 
+            {
+                "stop_name": "Maria-Aalter", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891132
+            }, 
+            {
+                "stop_name": "Aalter", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891140
+            }, 
+            {
+                "stop_name": "Bellem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891157
+            }, 
+            {
+                "stop_name": "Hansbeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891165
+            }, 
+            {
+                "stop_name": "Zeebrugge-Strand", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891173
+            }, 
+            {
+                "stop_name": "Zedelgem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891264
+            }, 
+            {
+                "stop_name": "Torhout", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891314
+            }, 
+            {
+                "stop_name": "Blankenberge", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891405
+            }, 
+            {
+                "stop_name": "Zeebrugge-Dorp", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891553
+            }, 
+            {
+                "stop_name": "Zwankendamme", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891611
+            }, 
+            {
+                "stop_name": "Lissewege", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891629
+            }, 
+            {
+                "stop_name": "Heist", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891645
+            }, 
+            {
+                "stop_name": "Duinbergen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8891652
+            }, 
+            {
+                "stop_name": "Knokke", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891660
+            }, 
+            {
+                "stop_name": "Oostende", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8891702
+            }, 
+            {
+                "stop_name": "Gent-Sint-Pieters", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892007
+            }, 
+            {
+                "stop_name": "Drongen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892031
+            }, 
+            {
+                "stop_name": "Landegem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892056
+            }, 
+            {
+                "stop_name": "De Pinte", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892080
+            }, 
+            {
+                "stop_name": "Deinze", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892106
+            }, 
+            {
+                "stop_name": "Lichtervelde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892205
+            }, 
+            {
+                "stop_name": "Tielt", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892254
+            }, 
+            {
+                "stop_name": "Aarsele", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892288
+            }, 
+            {
+                "stop_name": "Veurne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892304
+            }, 
+            {
+                "stop_name": "Koksijde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892320
+            }, 
+            {
+                "stop_name": "De Panne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892338
+            }, 
+            {
+                "stop_name": "Kortemark", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892403
+            }, 
+            {
+                "stop_name": "Diksmuide", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892452
+            }, 
+            {
+                "stop_name": "Oudenaarde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892601
+            }, 
+            {
+                "stop_name": "Eine", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892627
+            }, 
+            {
+                "stop_name": "Zingem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892635
+            }, 
+            {
+                "stop_name": "Gavere-Asper", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892643
+            }, 
+            {
+                "stop_name": "Eke-Nazareth", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892650
+            }, 
+            {
+                "stop_name": "Sint-Denijs-Boekel", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892692
+            }, 
+            {
+                "stop_name": "Anzegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8892734
+            }, 
+            {
+                "stop_name": "Ronse", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8892908
+            }, 
+            {
+                "stop_name": "Merelbeke", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893013
+            }, 
+            {
+                "stop_name": "Melle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893039
+            }, 
+            {
+                "stop_name": "Gontrode", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893047
+            }, 
+            {
+                "stop_name": "Landskouter", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893054
+            }, 
+            {
+                "stop_name": "Moortsele", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893062
+            }, 
+            {
+                "stop_name": "Scheldewindeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893070
+            }, 
+            {
+                "stop_name": "Gent-Dampoort", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893120
+            }, 
+            {
+                "stop_name": "Gentbrugge", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893179
+            }, 
+            {
+                "stop_name": "Wondelgem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893211
+            }, 
+            {
+                "stop_name": "Evergem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893252
+            }, 
+            {
+                "stop_name": "Sleidinge", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893260
+            }, 
+            {
+                "stop_name": "Dendermonde", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893401
+            }, 
+            {
+                "stop_name": "Sint-Gillis-Dendermonde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893443
+            }, 
+            {
+                "stop_name": "Oudegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893518
+            }, 
+            {
+                "stop_name": "Schoonaarde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893526
+            }, 
+            {
+                "stop_name": "Wichelen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893534
+            }, 
+            {
+                "stop_name": "Schellebelle", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893542
+            }, 
+            {
+                "stop_name": "Wetteren", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893559
+            }, 
+            {
+                "stop_name": "Kwatrecht", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893567
+            }, 
+            {
+                "stop_name": "Serskamp", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893583
+            }, 
+            {
+                "stop_name": "Eeklo", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8893708
+            }, 
+            {
+                "stop_name": "Waarschoot", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8893815
+            }, 
+            {
+                "stop_name": "Beervelde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894151
+            }, 
+            {
+                "stop_name": "Lokeren", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8894201
+            }, 
+            {
+                "stop_name": "Zele", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894235
+            }, 
+            {
+                "stop_name": "Sinaai", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894425
+            }, 
+            {
+                "stop_name": "Belsele", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894433
+            }, 
+            {
+                "stop_name": "Sint-Niklaas", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8894508
+            }, 
+            {
+                "stop_name": "Temse", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8894672
+            }, 
+            {
+                "stop_name": "Nieuwkerken-Waas", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894714
+            }, 
+            {
+                "stop_name": "Beveren", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8894748
+            }, 
+            {
+                "stop_name": "Melsele", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8894755
+            }, 
+            {
+                "stop_name": "Zwijndrecht", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8894821
+            }, 
+            {
+                "stop_name": "Aalst", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895000
+            }, 
+            {
+                "stop_name": "Lede", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895067
+            }, 
+            {
+                "stop_name": "Erembodegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895091
+            }, 
+            {
+                "stop_name": "Aalst-Kerrebroek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895125
+            }, 
+            {
+                "stop_name": "Zottegem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895208
+            }, 
+            {
+                "stop_name": "Munkzwalm", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895232
+            }, 
+            {
+                "stop_name": "Balegem-Zuid", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895240
+            }, 
+            {
+                "stop_name": "Balegem-Dorp", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895257
+            }, 
+            {
+                "stop_name": "Hillegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895422
+            }, 
+            {
+                "stop_name": "Herzele", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895430
+            }, 
+            {
+                "stop_name": "Terhagen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895448
+            }, 
+            {
+                "stop_name": "Burst", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895455
+            }, 
+            {
+                "stop_name": "Bambrugge", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895463
+            }, 
+            {
+                "stop_name": "Erpe-Mere", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895471
+            }, 
+            {
+                "stop_name": "Vijfhuizen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895489
+            }, 
+            {
+                "stop_name": "Geraardsbergen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895505
+            }, 
+            {
+                "stop_name": "Lierde", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895570
+            }, 
+            {
+                "stop_name": "Viane-Moerbeke", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895612
+            }, 
+            {
+                "stop_name": "Galmaarden", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895620
+            }, 
+            {
+                "stop_name": "Tollembeek", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895638
+            }, 
+            {
+                "stop_name": "Herne", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895646
+            }, 
+            {
+                "stop_name": "Schendelbeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895711
+            }, 
+            {
+                "stop_name": "Idegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895729
+            }, 
+            {
+                "stop_name": "Zandbergen", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895737
+            }, 
+            {
+                "stop_name": "Appelterre", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895745
+            }, 
+            {
+                "stop_name": "Eichem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895752
+            }, 
+            {
+                "stop_name": "Ninove", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895760
+            }, 
+            {
+                "stop_name": "Okegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895778
+            }, 
+            {
+                "stop_name": "Denderleeuw", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8895802
+            }, 
+            {
+                "stop_name": "Liedekerke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895836
+            }, 
+            {
+                "stop_name": "Iddergem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895844
+            }, 
+            {
+                "stop_name": "Welle", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895851
+            }, 
+            {
+                "stop_name": "Haaltert", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895869
+            }, 
+            {
+                "stop_name": "Ede", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8895877
+            }, 
+            {
+                "stop_name": "Kortrijk", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896008
+            }, 
+            {
+                "stop_name": "Harelbeke", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896115
+            }, 
+            {
+                "stop_name": "Waregem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896149
+            }, 
+            {
+                "stop_name": "Vichte", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896230
+            }, 
+            {
+                "stop_name": "Menen", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896305
+            }, 
+            {
+                "stop_name": "Wevelgem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896370
+            }, 
+            {
+                "stop_name": "Bissegem", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896388
+            }, 
+            {
+                "stop_name": "Wervik", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896396
+            }, 
+            {
+                "stop_name": "Comines", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896412
+            }, 
+            {
+                "stop_name": "Ieper", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896503
+            }, 
+            {
+                "stop_name": "Poperinge", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896735
+            }, 
+            {
+                "stop_name": "Roeselare", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896800
+            }, 
+            {
+                "stop_name": "Izegem", 
+                "wheelchair_boarding": "gtfs:WheelchairAccessible", 
+                "stop_id": 8896909
+            }, 
+            {
+                "stop_name": "Ingelmunster", 
+                "wheelchair_boarding": "gtfs:NotWheelchairAccessible", 
+                "stop_id": 8896925
+            }
+        ]
+    }
+}

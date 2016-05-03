@@ -1,7 +1,11 @@
 var csa = require('csa'),
     moment = require('moment-timezone');
 
-module.exports = function (request, response, next) {
+var RouteController = function(dataprefetcher) {
+  this._dataprefetcher = dataprefetcher;
+}
+
+RouteController.prototype.handle = function (request, response, next) {
   if (!request.query.departureTime) {
     response.status(400).send('Please provide us with a parseable ISO8601 departureTime as a GET parameter');
   } else {
@@ -9,8 +13,16 @@ module.exports = function (request, response, next) {
     var departureTime = moment.tz(request.query.departureTime,request.locals.config.defaultTimezone || 'Europe/Brussels');
     departureTime = departureTime.toDate();
     var endTime = new Date(departureTime.getTime() + maxJourneyTime);
-    var planner = new csa.BasicCSA({departureStop: request.query.departureStop, arrivalStop: request.query.arrivalStop,departureTime: departureTime});
-    request.db.getConnectionsStream(departureTime, endTime, function (connectionsStream, close) {
+    var planner = new csa.BasicCSA(
+        {departureStop: request.query.departureStop,
+          arrivalStop: request.query.arrivalStop,
+          departureTime: departureTime,
+          min_transfer_time: 60,
+          wheelchair_accessible: request.query.wha
+        },
+        this._dataprefetcher
+    );
+    request.db.getConnectionsStream(departureTime, endTime, request.query.wha.toLowerCase() == "true", function (connectionsStream, close) {
       connectionsStream.on('error', function (error) {
         next('MongoDB error ' + error);
       });
@@ -57,3 +69,5 @@ module.exports = function (request, response, next) {
     
   }
 };
+
+module.exports = RouteController;
